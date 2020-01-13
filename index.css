@@ -38,7 +38,7 @@ body, html{
   padding: 0.7rem;
   border: 1px solid #ced4da;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -51,7 +51,7 @@ body, html{
   padding: 0.7rem;
   color: #ffffff;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 14px;
   font-weight: 500;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -95,7 +95,7 @@ body, html{
 }
 
 a{
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
 a:hover{
