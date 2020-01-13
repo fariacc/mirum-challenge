@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de teste da Mirum">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Carolina Faria">
+    <!-- <meta name="google-signin-client_id" content="765041008701-ao6uh18vh7t9fontir3088t24jp9hggc.apps.googleusercontent.com"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- escreva seu codigo aqui -->
+    <div class="container align-items-center justify-content-center d-flex">
+      <div class="row register-card-wrapper">
+        <div class="col-12 col-lg-5 register-img-wrapper"></div>
+        <div class="col-12 col-lg-7 register-form-wrapper">
+          <h3 class="title">Create an Account!</h3>
+          <form id="register-form">
+            <div class="form-row">
+              <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                <input class="input-form" type="text" id="first-name" name="first-name" value="" placeholder="First Name" required>
+              </div>
+              <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                <input class="input-form" type="text" id="phone" name="phone" value="" placeholder="Phone" required>
+              </div>
+              <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                <input class="input-form" type="email" id="email" name="email" value="" placeholder="E-mail Address" required>
+              </div>
+              <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                <input class="input-form" type="password" id="password" name="password" value="" placeholder="Password" required>
+              </div>
+              <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                <input class="input-form" type="password" id="repeat-password" name="repeat-password" value="" placeholder="Repeat Password" required>
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit" name="button" class="rounded-button" id="btn-register">Register Account</button>
+              <hr>
+              <button type="button" name="button" class="rounded-button" id="btn-google">
+                <i class="fab fa-google"></i>
+                Register with Google
+              </button>
+              <button type="button" name="button" class="rounded-button" id="btn-facebook" onclick="fb_login();">
+                <i class="fab fa-facebook-f"></i>
+                Register with Facebook
+              </button>
+              <hr>
+              <p class="mb-0">
+                <a href="#" id="forget-password">Forgot Password?</a>
+              </p>
+              <p>
+                <a href="#" id="login">Already have an account? Login!</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+  <!-- importação da biblioteca do jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- popper.js e bootstrap.js para funcionamento do Bootstrap -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- biblioteca jquery.mask.js para mascarar valores de campos input -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <!-- index.js contém o script referente ao formulário -->
+  <script type="text/javascript" src="index.js"></script>
+  <script src="https://apis.google.com/js/client:platform.js?onload=startApp" async defer></script>
+</html>

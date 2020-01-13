@@ -1,0 +1,103 @@
+body, html{
+  background-color: #476cd7;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  min-height: 100vh;
+  padding: 1.5vh 0;
+}
+
+.register-card-wrapper{
+  border-radius: 7px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.register-img-wrapper{
+  background: url(dog.jpg) no-repeat right bottom;
+  background-size: contain;
+  background-color: #edb506;
+  min-height: 45vh;
+  max-height: 100%;
+}
+
+.register-form-wrapper{
+  padding: 5vh 5vw;
+}
+
+.title{
+  color: #3f3e43;
+  padding-bottom: 3vh;
+  text-align: center;
+}
+
+.input-form{
+  border-radius: 30px;
+  padding: 0.7rem;
+  border: 1px solid #ced4da;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.input-form:focus, .rounded-button:focus{
+  outline: 0;
+}
+
+.rounded-button{
+  border-radius: 30px;
+  padding: 0.7rem;
+  color: #ffffff;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.rounded-button:hover {
+	letter-spacing: 2px;
+	color: #ffffff;
+  cursor: pointer;
+}
+
+#btn-register{
+  background-color: #476cd7;
+  border: 2px solid #476cd7;
+}
+
+#btn-register:hover{
+  background-color: #476cd7c9;
+}
+
+#btn-google{
+  background-color: #ea4236;
+  margin-bottom: 1rem;
+  border: 2px solid #ea4236;
+}
+
+#btn-google:hover{
+  background-color: #ea4236c9;
+}
+
+#btn-facebook{
+  background-color: #3b5998;
+  border: 2px solid #3b5998;
+}
+
+#btn-facebook:hover{
+  background-color: #3b5998c9;
+}
+
+a{
+  font-size: 0.9rem;
+}
+
+a:hover{
+  text-decoration: none;
+}
